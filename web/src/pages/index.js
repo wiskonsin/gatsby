@@ -1,28 +1,23 @@
 import React from "react"
+import Layout from "../components/layout.js"
+import { Link } from "gatsby"
+import styles from "../css/index-css-modules.module.css"
+
 
 export default () => (
-    <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
-    <h1>Richard Hamming on Luck</h1>
+    <Layout>
+    <h1>Crear un sitio web nunca fue tan fácil</h1>
     <div>
       <p>
-        From Richard Hamming’s classic and must-read talk, “
-        <a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
-          You and Your Research
-        </a>
-        ”.
+      <a href="https://www.gatsbyjs.org/">Gatsby</a> es un generador de aplicaciones web progresivo, que nos facilitará mucho el desarrollo de nuestro sitio web.
       </p>
-      <blockquote>
-        <p>
-          There is indeed an element of luck, and no, there isn’t. The prepared
-          mind sooner or later finds something important and does it. So yes, it
-          is luck.{" "}
-          <em>
-            The particular thing you do is luck, but that you do something is
-            not.
-          </em>
+      <p>
+          En pocos minutos te sorprenderá, ya que se obtienen resultados increíbles casi de manera inmediata.
         </p>
-      </blockquote>
+      </div>
+    <p>¿Quieres comenzar nuestro tutorial en castellano?</p>
+    <div  className={styles.goto}>
+    <Link to="/tutorial/">Haz click aquí</Link>
     </div>
-    <p>Posted April 09, 2011</p>
-  </div>
+    </Layout>
 )
