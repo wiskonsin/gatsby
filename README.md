@@ -1,6 +1,12 @@
-# gatsby
-Proyecto de Gatsby
+# gatsby-starter-hello-world
+Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
 
-Interesante -> contenido dinámico: https://blog.hasura.io/building-a-dynamic-listing-web-app-with-pagination-and-dynamic-pages-using-gatsby-2ddee9ec2dc3
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
 
--> qué es gatsby y por qué usarlo: https://www.mediacurrent.com/what-is-gatsby.js/
+Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com/).
+
+## Running in development
+`gatsby develop`
