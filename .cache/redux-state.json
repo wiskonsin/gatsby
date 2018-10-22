@@ -197,7 +197,7 @@
       }
     },
     "Plugin gatsby-plugin-typography": {
-      "resolve": "C:/Users/Luis/node_modules/gatsby-plugin-typography",
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
       "name": "gatsby-plugin-typography",
       "version": "2.2.0",
@@ -212,7 +212,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "C:/Users/Luis/node_modules/gatsby-plugin-typography",
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-typography",
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
@@ -269,7 +269,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "06e1a60fc45078f80de1432973411ee9",
+        "contentDigest": "cbeab60a30ca644049e949e31b1e0b6f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -294,6 +294,10 @@
           {
             "name": "gatsby",
             "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-cli",
+            "version": "^2.4.3"
           },
           {
             "name": "gatsby-plugin-typography",
@@ -446,12 +450,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-22T12:06:30.462Z",
+      "buildTime": "2018-10-22T14:43:32.961Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a8ef986f18477baa916332d1aeb30597",
+        "contentDigest": "f7e68cac57d56a8ab4195dd653a034cc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -539,7 +543,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "71807ff6fdcf3b805af45e18910a4ba1"
+    "PLUGINS_HASH": "086e64aa05328da1829d2007efadd8fd"
   },
   "componentDataDependencies": {
     "nodes": {},
