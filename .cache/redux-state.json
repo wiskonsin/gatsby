@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/.cache/dev-404-page.js",
+      "component": "C:/Users/Luis/Desktop/Otros/Gatsby/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/.cache/dev-404-page.js",
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "93f7039a05a1cd280f783120d0db8894",
+        "contentDigest": "acc90866a1cd37491303351e642276dc",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fc45b2099a2190820d32360bd35c34a1",
+        "contentDigest": "b2d8e5fc4682aadbba122dc755ae0825",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin load-babel-config": {
-      "resolve": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "Plugin load-babel-config",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "29eb00e3977cdf2a45bbb9787e5c2cc9",
+        "contentDigest": "443ccccf329a820734f6ca6635ae79eb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cdb8d5f549e03dbefb96d361a6b8ff1b",
+        "contentDigest": "39969034acee15dbd6953a38069af12b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ef0bc009de8d5d02ccd88f9279b25f50",
+        "contentDigest": "06d95e306d371cf6f00bd3a4345566c0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,13 +191,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4c7bd640ffedc381e6a8bc3db5911619",
+        "contentDigest": "5e5ad8f8cc306de08b5ebdfde64922ba",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-typography": {
-      "resolve": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby-plugin-typography",
+      "resolve": "C:/Users/Luis/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
       "name": "gatsby-plugin-typography",
       "version": "2.2.0",
@@ -212,7 +212,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby-plugin-typography",
+      "pluginFilepath": "C:/Users/Luis/node_modules/gatsby-plugin-typography",
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
@@ -269,23 +269,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "25e565371256b7ac437b87b55319d578",
+        "contentDigest": "06e1a60fc45078f80de1432973411ee9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby",
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "e2cde4a466789950b2fb766dbd30a61e",
+      "version": "0a00cfe33e8a69af3779ccf6753e1118",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby",
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby",
       "packageJson": {
         "name": "gatsby-starter-hello-world",
         "description": "Gatsby hello world starter",
@@ -340,19 +340,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "18e59e418613e30f27c94061f7a1b605",
+        "contentDigest": "d925d31036f993dd9223794874597b7b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby-plugin-page-creator",
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages",
+        "path": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -360,7 +360,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -435,7 +435,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f2a8b41b805d6ec83cf8fe6dee84ed32",
+        "contentDigest": "1b030b36ceba6e2c1d89d82d55d949fe",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -446,12 +446,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-21T23:13:00.783Z",
+      "buildTime": "2018-10-22T12:06:30.462Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fa3e39d58b34b5cf5dd53bbbd92f4082",
+        "contentDigest": "a8ef986f18477baa916332d1aeb30597",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -460,18 +460,18 @@
       "jsonName": "about-f34",
       "internalComponentName": "ComponentAbout",
       "path": "/about/",
-      "component": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/about.js",
+      "component": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/about.js",
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/about.js",
       "id": "SitePage /about/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e9168c21755603555be0444968545c5f",
+        "contentDigest": "bbd56eb6d8d076d7739093891178faed",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -480,18 +480,18 @@
       "jsonName": "contact-26a",
       "internalComponentName": "ComponentContact",
       "path": "/contact/",
-      "component": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/contact.js",
+      "component": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/contact.js",
       "componentChunkName": "component---src-pages-contact-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/contact.js",
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/contact.js",
       "id": "SitePage /contact/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3f19da3ab396e1f76cbe655505cbbedf",
+        "contentDigest": "0cf324373db5291d72a09b910c833b29",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -500,18 +500,18 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/index.js",
+      "component": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/index.js",
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e2a82e1d376209d1bed0c640cdd3a299",
+        "contentDigest": "5707629073e9418f19f1301eeefa5c6a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -520,18 +520,18 @@
       "jsonName": "tutorial-c98",
       "internalComponentName": "ComponentTutorial",
       "path": "/tutorial/",
-      "component": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/tutorial.js",
+      "component": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/tutorial.js",
       "componentChunkName": "component---src-pages-tutorial-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/tutorial.js",
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/tutorial.js",
       "id": "SitePage /tutorial/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f49741cd5589334943aea35df56727b8",
+        "contentDigest": "cf5f10abfbe526f89ba3fb16bb8ef03c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -539,7 +539,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ccabfb3e8e315e2baf2cfaeade46e095"
+    "PLUGINS_HASH": "71807ff6fdcf3b805af45e18910a4ba1"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -547,31 +547,31 @@
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "tutorial-c98": "223/path---tutorial-c-98-8d0-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/about.js": {
+    "C:/Users/Luis/Desktop/Otros/Gatsby/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/about.js"
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/.cache/dev-404-page.js"
     },
-    "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/contact.js": {
+    "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/about.js": {
       "query": "",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/contact.js"
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/about.js"
     },
-    "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/index.js": {
+    "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/contact.js": {
       "query": "",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/index.js"
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/contact.js"
     },
-    "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/tutorial.js": {
+    "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/index.js": {
       "query": "",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/src/pages/tutorial.js"
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/index.js"
     },
-    "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/.cache/dev-404-page.js": {
+    "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/tutorial.js": {
       "query": "",
-      "componentPath": "/Users/Luigi/Library/Mobile Documents/com~apple~CloudDocs/Business/Gatsby/.cache/dev-404-page.js"
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/tutorial.js"
     }
   },
   "staticQueryComponents": {}
