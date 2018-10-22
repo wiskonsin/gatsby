@@ -4,8 +4,8 @@ import Layout from "../components/layout.js"
 export default () => (
     <Layout>
   <div>
-    <h1>About me</h1>
-    <p>I’m good enough, I’m smart enough, and gosh darn it, people like me!</p>
+    <h1>Sobre mi</h1>
+    <p>Soy un desarrollador amateur al que le encantan los nuevos retos.</p>
   </div>
   </Layout>
 )
