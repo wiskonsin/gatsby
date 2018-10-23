@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-about-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\about.js")),
   "component---src-pages-contact-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\contact.js")),
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\index.js")),
+  "component---src-pages-my-files-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\my-files.js")),
   "component---src-pages-tutorial-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\tutorial.js"))
 }
 

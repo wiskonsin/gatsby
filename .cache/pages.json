@@ -20,6 +20,11 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-my-files-js",
+        "jsonName": "my-files-317",
+        "path": "/my-files/"
+    },
+    {
         "componentChunkName": "component---src-pages-tutorial-js",
         "jsonName": "tutorial-c98",
         "path": "/tutorial/"

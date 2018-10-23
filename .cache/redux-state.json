@@ -196,6 +196,117 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "C:\\Users\\Luis\\Desktop\\Otros\\Gatsby/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.5",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "595bc9db21e622f8048c0d39fcabb745",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-typography": {
       "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
@@ -278,7 +389,7 @@
       "resolve": "C:/Users/Luis/Desktop/Otros/Gatsby",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "0a00cfe33e8a69af3779ccf6753e1118",
+      "version": "b4835a9c9e7ef3fdec6be3adbc70a288",
       "pluginOptions": {
         "plugins": []
       },
@@ -302,6 +413,10 @@
           {
             "name": "gatsby-plugin-typography",
             "version": "^2.2.0"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.5"
           },
           {
             "name": "react",
@@ -344,7 +459,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d925d31036f993dd9223794874597b7b",
+        "contentDigest": "cf551032534344a862a32ca337906ce2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -445,20 +560,661 @@
       }
     },
     "Site": {
-      "siteMetadata": {},
+      "siteMetadata": {
+        "title": "aprendiendogatsby"
+      },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-23T06:41:28.273Z",
+      "buildTime": "2018-10-23T07:14:28.111Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c8ef07cfdc5e1082c944a6ee6225bee0",
+        "contentDigest": "3cc4e73089914bacebee267064e10aa8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
+    },
+    "68e9a30e-d785-59ff-a016-23ed1534dfde": {
+      "id": "68e9a30e-d785-59ff-a016-23ed1534dfde",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dfcf9ece1c28d1754349eafcf62593fe",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-19T08:07:18.651Z",
+      "accessTime": "2018-10-19T08:07:18.651Z",
+      "changeTime": "2018-10-22T12:06:10.377Z",
+      "birthTime": "2018-10-19T06:55:09.140Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 1615238008,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374884266212,
+      "atimeMs": 1539936438651.4426,
+      "mtimeMs": 1539936438651.4426,
+      "ctimeMs": 1540209970377.322,
+      "birthtimeMs": 1539932109140.4597,
+      "atime": "2018-10-19T08:07:18.651Z",
+      "mtime": "2018-10-19T08:07:18.651Z",
+      "ctime": "2018-10-22T12:06:10.377Z",
+      "birthtime": "2018-10-19T06:55:09.140Z"
+    },
+    "39a9de90-bffb-51f9-b9de-9a445a7383e5": {
+      "id": "39a9de90-bffb-51f9-b9de-9a445a7383e5",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ba71da2e618366209c3bf5bed871f38f",
+        "type": "Directory",
+        "description": "Directory \"src\\components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-22T06:22:25.803Z",
+      "accessTime": "2018-10-22T06:22:25.803Z",
+      "changeTime": "2018-10-22T06:22:25.803Z",
+      "birthTime": "2018-10-19T07:34:51.766Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 1615238008,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 13510798882686920,
+      "atimeMs": 1540189345802.8572,
+      "mtimeMs": 1540189345802.8572,
+      "ctimeMs": 1540189345802.8572,
+      "birthtimeMs": 1539934491766.4778,
+      "atime": "2018-10-22T06:22:25.803Z",
+      "mtime": "2018-10-22T06:22:25.803Z",
+      "ctime": "2018-10-22T06:22:25.803Z",
+      "birthtime": "2018-10-19T07:34:51.766Z"
+    },
+    "9adfc28e-9dda-59ae-b08b-c123bdd8fc3a": {
+      "id": "9adfc28e-9dda-59ae-b08b-c123bdd8fc3a",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a29e6cb4fff71fb19bc1189d0dfcf18c",
+        "type": "Directory",
+        "description": "Directory \"src\\css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/css",
+      "relativePath": "css",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-22T06:22:25.804Z",
+      "accessTime": "2018-10-22T06:22:25.804Z",
+      "changeTime": "2018-10-22T06:22:25.804Z",
+      "birthTime": "2018-10-19T08:07:18.651Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src",
+      "base": "css",
+      "ext": "",
+      "name": "css",
+      "relativeDirectory": "",
+      "dev": 1615238008,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 31525197391946530,
+      "atimeMs": 1540189345803.8796,
+      "mtimeMs": 1540189345803.8796,
+      "ctimeMs": 1540189345803.8796,
+      "birthtimeMs": 1539936438651.4426,
+      "atime": "2018-10-22T06:22:25.804Z",
+      "mtime": "2018-10-22T06:22:25.804Z",
+      "ctime": "2018-10-22T06:22:25.804Z",
+      "birthtime": "2018-10-19T08:07:18.651Z"
+    },
+    "0e06b47a-0e58-55cb-97cf-3766244d9311": {
+      "id": "0e06b47a-0e58-55cb-97cf-3766244d9311",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8c9a2cfaabc551c97e1533c9ad3229dd",
+        "type": "Directory",
+        "description": "Directory \"src\\pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-23T07:07:11.033Z",
+      "accessTime": "2018-10-23T07:07:11.033Z",
+      "changeTime": "2018-10-23T07:07:11.033Z",
+      "birthTime": "2018-10-19T06:55:09.140Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 1615238008,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374884266221,
+      "atimeMs": 1540278431032.9216,
+      "mtimeMs": 1540278431032.9216,
+      "ctimeMs": 1540278431032.9216,
+      "birthtimeMs": 1539932109140.4597,
+      "atime": "2018-10-23T07:07:11.033Z",
+      "mtime": "2018-10-23T07:07:11.033Z",
+      "ctime": "2018-10-23T07:07:11.033Z",
+      "birthtime": "2018-10-19T06:55:09.140Z"
+    },
+    "10d33a5a-35ed-52d9-ae86-36d134557ada": {
+      "id": "10d33a5a-35ed-52d9-ae86-36d134557ada",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c2e3ec8f16307ad2251105989fc1d732",
+        "type": "Directory",
+        "description": "Directory \"src\\utils\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/utils",
+      "relativePath": "utils",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-19T07:19:18.066Z",
+      "accessTime": "2018-10-19T07:19:18.066Z",
+      "changeTime": "2018-10-19T07:19:18.066Z",
+      "birthTime": "2018-10-19T07:19:10.458Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src",
+      "base": "utils",
+      "ext": "",
+      "name": "utils",
+      "relativeDirectory": "",
+      "dev": 1615238008,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 7318349394925973,
+      "atimeMs": 1539933558066.454,
+      "mtimeMs": 1539933558066.454,
+      "ctimeMs": 1539933558066.454,
+      "birthtimeMs": 1539933550458.4192,
+      "atime": "2018-10-19T07:19:18.066Z",
+      "mtime": "2018-10-19T07:19:18.066Z",
+      "ctime": "2018-10-19T07:19:18.066Z",
+      "birthtime": "2018-10-19T07:19:10.458Z"
+    },
+    "6d21793c-9ba9-5d9b-ae16-f57c4756b3a3": {
+      "id": "6d21793c-9ba9-5d9b-ae16-f57c4756b3a3",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aa303e70778a0ed7be9c138735aae871",
+        "type": "Directory",
+        "description": "Directory \"src\\static\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/static",
+      "relativePath": "static",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-10-19T06:55:09.141Z",
+      "accessTime": "2018-10-19T06:55:09.141Z",
+      "changeTime": "2018-10-19T06:55:09.141Z",
+      "birthTime": "2018-10-19T06:55:09.140Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src",
+      "base": "static",
+      "ext": "",
+      "name": "static",
+      "relativeDirectory": "",
+      "dev": 1615238008,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1688849860976897,
+      "atimeMs": 1539932109141.455,
+      "mtimeMs": 1539932109141.455,
+      "ctimeMs": 1539932109141.455,
+      "birthtimeMs": 1539932109140.4597,
+      "atime": "2018-10-19T06:55:09.141Z",
+      "mtime": "2018-10-19T06:55:09.141Z",
+      "ctime": "2018-10-19T06:55:09.141Z",
+      "birthtime": "2018-10-19T06:55:09.140Z"
+    },
+    "39fdf449-7844-5717-bab2-92e331d43e65": {
+      "id": "39fdf449-7844-5717-bab2-92e331d43e65",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b210bec87bc9c57d970aaa079a07c8fa",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src\\components\\layout.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/components/layout.js",
+      "relativePath": "components/layout.js",
+      "extension": "js",
+      "size": 1062,
+      "prettySize": "1.06 kB",
+      "modifiedTime": "2018-10-23T06:57:23.254Z",
+      "accessTime": "2018-10-22T06:22:25.803Z",
+      "changeTime": "2018-10-23T06:57:23.254Z",
+      "birthTime": "2018-10-19T07:34:58.427Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/components",
+      "base": "layout.js",
+      "ext": ".js",
+      "name": "layout",
+      "relativeDirectory": "components",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4222124651263696,
+      "atimeMs": 1540189345802.8572,
+      "mtimeMs": 1540277843254.2234,
+      "ctimeMs": 1540277843254.2234,
+      "birthtimeMs": 1539934498427.4136,
+      "atime": "2018-10-22T06:22:25.803Z",
+      "mtime": "2018-10-23T06:57:23.254Z",
+      "ctime": "2018-10-23T06:57:23.254Z",
+      "birthtime": "2018-10-19T07:34:58.427Z"
+    },
+    "6907c8c7-d091-5ed2-9f12-1395bffebfdd": {
+      "id": "6907c8c7-d091-5ed2-9f12-1395bffebfdd",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "27a7bcdf0c331fd65a3929e1d421e501",
+        "type": "File",
+        "mediaType": "text/css",
+        "description": "File \"src\\css\\index-css-modules.module.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/css/index-css-modules.module.css",
+      "relativePath": "css/index-css-modules.module.css",
+      "extension": "css",
+      "size": 425,
+      "prettySize": "425 B",
+      "modifiedTime": "2018-10-22T06:22:25.805Z",
+      "accessTime": "2018-10-22T06:22:25.804Z",
+      "changeTime": "2018-10-22T06:22:25.805Z",
+      "birthTime": "2018-10-19T08:05:27.064Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/css",
+      "base": "index-css-modules.module.css",
+      "ext": ".css",
+      "name": "index-css-modules.module",
+      "relativeDirectory": "css",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3377699721228925,
+      "atimeMs": 1540189345803.8796,
+      "mtimeMs": 1540189345804.8538,
+      "ctimeMs": 1540189345804.8538,
+      "birthtimeMs": 1539936327064.082,
+      "atime": "2018-10-22T06:22:25.804Z",
+      "mtime": "2018-10-22T06:22:25.805Z",
+      "ctime": "2018-10-22T06:22:25.805Z",
+      "birthtime": "2018-10-19T08:05:27.064Z"
+    },
+    "2755b54e-f093-530e-a8e8-8b246d40639d": {
+      "id": "2755b54e-f093-530e-a8e8-8b246d40639d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2d865363175a5284b0ae761597318f0b",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src\\pages\\about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 501,
+      "prettySize": "501 B",
+      "modifiedTime": "2018-10-23T06:52:47.441Z",
+      "accessTime": "2018-10-23T06:15:27.529Z",
+      "changeTime": "2018-10-23T06:52:47.441Z",
+      "birthTime": "2018-10-19T07:34:11.980Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 562949953467150,
+      "atimeMs": 1540275327529.473,
+      "mtimeMs": 1540277567440.8857,
+      "ctimeMs": 1540277567440.8857,
+      "birthtimeMs": 1539934451979.5361,
+      "atime": "2018-10-23T06:15:27.529Z",
+      "mtime": "2018-10-23T06:52:47.441Z",
+      "ctime": "2018-10-23T06:52:47.441Z",
+      "birthtime": "2018-10-19T07:34:11.980Z"
+    },
+    "cbde54da-4391-5ad1-a416-bfbc27844f30": {
+      "id": "cbde54da-4391-5ad1-a416-bfbc27844f30",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ff67d7b3cbb075b42635d0582395948e",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src\\pages\\contact.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/contact.js",
+      "relativePath": "pages/contact.js",
+      "extension": "js",
+      "size": 330,
+      "prettySize": "330 B",
+      "modifiedTime": "2018-10-23T06:34:01.205Z",
+      "accessTime": "2018-10-23T06:15:27.529Z",
+      "changeTime": "2018-10-23T06:34:01.205Z",
+      "birthTime": "2018-10-19T07:34:24.775Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages",
+      "base": "contact.js",
+      "ext": ".js",
+      "name": "contact",
+      "relativeDirectory": "pages",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 562949953467151,
+      "atimeMs": 1540275327529.473,
+      "mtimeMs": 1540276441204.6992,
+      "ctimeMs": 1540276441204.6992,
+      "birthtimeMs": 1539934464774.9414,
+      "atime": "2018-10-23T06:15:27.529Z",
+      "mtime": "2018-10-23T06:34:01.205Z",
+      "ctime": "2018-10-23T06:34:01.205Z",
+      "birthtime": "2018-10-19T07:34:24.775Z"
+    },
+    "34801dca-06ee-556c-b65e-8139cb060c39": {
+      "id": "34801dca-06ee-556c-b65e-8139cb060c39",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1c033ace011a96092ac4d651cb8effab",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src\\pages\\index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 821,
+      "prettySize": "821 B",
+      "modifiedTime": "2018-10-23T06:34:15.179Z",
+      "accessTime": "2018-10-22T06:22:25.807Z",
+      "changeTime": "2018-10-23T06:34:15.179Z",
+      "birthTime": "2018-10-19T06:55:09.140Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2251799814398207,
+      "atimeMs": 1540189345806.846,
+      "mtimeMs": 1540276455179.495,
+      "ctimeMs": 1540276455179.495,
+      "birthtimeMs": 1539932109140.4597,
+      "atime": "2018-10-22T06:22:25.807Z",
+      "mtime": "2018-10-23T06:34:15.179Z",
+      "ctime": "2018-10-23T06:34:15.179Z",
+      "birthtime": "2018-10-19T06:55:09.140Z"
+    },
+    "add1261e-b175-5918-acff-603bf75514f4": {
+      "id": "add1261e-b175-5918-acff-603bf75514f4",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d0166c7c3c175630df36be2779a7117c",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src\\pages\\tutorial.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/tutorial.js",
+      "relativePath": "pages/tutorial.js",
+      "extension": "js",
+      "size": 448,
+      "prettySize": "448 B",
+      "modifiedTime": "2018-10-23T06:34:29.665Z",
+      "accessTime": "2018-10-19T08:56:53.506Z",
+      "changeTime": "2018-10-23T06:34:29.665Z",
+      "birthTime": "2018-10-19T08:56:53.506Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages",
+      "base": "tutorial.js",
+      "ext": ".js",
+      "name": "tutorial",
+      "relativeDirectory": "pages",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2814749767854612,
+      "atimeMs": 1539939413505.568,
+      "mtimeMs": 1540276469665.077,
+      "ctimeMs": 1540276469665.077,
+      "birthtimeMs": 1539939413505.568,
+      "atime": "2018-10-19T08:56:53.506Z",
+      "mtime": "2018-10-23T06:34:29.665Z",
+      "ctime": "2018-10-23T06:34:29.665Z",
+      "birthtime": "2018-10-19T08:56:53.506Z"
+    },
+    "87533b63-3a3a-5cf0-91cf-a118910a451b": {
+      "id": "87533b63-3a3a-5cf0-91cf-a118910a451b",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "705f3189319b0d8964b20fda5c0597eb",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src\\utils\\typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 170,
+      "prettySize": "170 B",
+      "modifiedTime": "2018-10-19T07:30:42.539Z",
+      "accessTime": "2018-10-19T07:19:18.066Z",
+      "changeTime": "2018-10-19T07:30:42.539Z",
+      "birthTime": "2018-10-19T07:19:18.066Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 6755399441504652,
+      "atimeMs": 1539933558066.454,
+      "mtimeMs": 1539934242539.4692,
+      "ctimeMs": 1539934242539.4692,
+      "birthtimeMs": 1539933558066.454,
+      "atime": "2018-10-19T07:19:18.066Z",
+      "mtime": "2018-10-19T07:30:42.539Z",
+      "ctime": "2018-10-19T07:30:42.539Z",
+      "birthtime": "2018-10-19T07:19:18.066Z"
+    },
+    "815f11f3-6375-5f48-8775-2dff2dae31e3": {
+      "id": "815f11f3-6375-5f48-8775-2dff2dae31e3",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3a318e3ceb32f2e06b497c0795ae14cb",
+        "type": "File",
+        "mediaType": "image/x-icon",
+        "description": "File \"src\\static\\favicon.ico\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/static/favicon.ico",
+      "relativePath": "static/favicon.ico",
+      "extension": "ico",
+      "size": 2813,
+      "prettySize": "2.81 kB",
+      "modifiedTime": "2018-10-19T06:55:09.141Z",
+      "accessTime": "2018-10-19T06:55:09.141Z",
+      "changeTime": "2018-10-19T06:55:09.141Z",
+      "birthTime": "2018-10-19T06:55:09.141Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/static",
+      "base": "favicon.ico",
+      "ext": ".ico",
+      "name": "favicon",
+      "relativeDirectory": "static",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424930844930,
+      "atimeMs": 1539932109141.455,
+      "mtimeMs": 1539932109141.455,
+      "ctimeMs": 1539932109141.455,
+      "birthtimeMs": 1539932109141.455,
+      "atime": "2018-10-19T06:55:09.141Z",
+      "mtime": "2018-10-19T06:55:09.141Z",
+      "ctime": "2018-10-19T06:55:09.141Z",
+      "birthtime": "2018-10-19T06:55:09.141Z"
+    },
+    "5a61d7f5-0e51-5589-8780-cc50c10e8550": {
+      "id": "5a61d7f5-0e51-5589-8780-cc50c10e8550",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f668cca3498d2e45dc1ae15d7e15250d",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src\\pages\\my-files.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/my-files.js",
+      "relativePath": "pages/my-files.js",
+      "extension": "js",
+      "size": 1091,
+      "prettySize": "1.09 kB",
+      "modifiedTime": "2018-10-23T07:15:02.883Z",
+      "accessTime": "2018-10-23T07:07:11.033Z",
+      "changeTime": "2018-10-23T07:15:02.883Z",
+      "birthTime": "2018-10-23T07:07:11.033Z",
+      "root": "C:/",
+      "dir": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages",
+      "base": "my-files.js",
+      "ext": ".js",
+      "name": "my-files",
+      "relativeDirectory": "pages",
+      "dev": 1615238008,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4785074604121414,
+      "atimeMs": 1540278431032.9216,
+      "mtimeMs": 1540278902882.9329,
+      "ctimeMs": 1540278902882.9329,
+      "birthtimeMs": 1540278431032.9216,
+      "atime": "2018-10-23T07:07:11.033Z",
+      "mtime": "2018-10-23T07:15:02.883Z",
+      "ctime": "2018-10-23T07:15:02.883Z",
+      "birthtime": "2018-10-23T07:07:11.033Z"
     },
     "SitePage /about/": {
       "jsonName": "about-f34",
@@ -520,6 +1276,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /my-files/": {
+      "jsonName": "my-files-317",
+      "internalComponentName": "ComponentMyFiles",
+      "path": "/my-files/",
+      "component": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/my-files.js",
+      "componentChunkName": "component---src-pages-my-files-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/my-files.js",
+      "id": "SitePage /my-files/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5fd3190f0e53cb40501b664cddd1fce3",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /tutorial/": {
       "jsonName": "tutorial-c98",
       "internalComponentName": "ComponentTutorial",
@@ -543,18 +1319,29 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "086e64aa05328da1829d2007efadd8fd"
+    "PLUGINS_HASH": "9f1c8dd20bf495121164519fec8fd34c"
   },
   "componentDataDependencies": {
-    "nodes": {},
-    "connections": {}
+    "nodes": {
+      "Site": [
+        "/about/",
+        "/"
+      ]
+    },
+    "connections": {
+      "File": [
+        "/my-files/"
+      ]
+    }
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "582/path---about-f-34-4c2-qAqSp0gNQ9BBuQm7UVrNxABRBbY",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "tutorial-c98": "223/path---tutorial-c-98-8d0-NZuapzHg3X9TaN1iIixfv1W23E"
+    "tutorial-c98": "223/path---tutorial-c-98-8d0-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 3892401927,
+    "my-files-317": "452/path---my-files-317-4c7-qCbE2jM9xIfamRsLbUFFAcfPtY"
   },
   "components": {
     "C:/Users/Luis/Desktop/Otros/Gatsby/.cache/dev-404-page.js": {
@@ -562,7 +1349,7 @@
       "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/.cache/dev-404-page.js"
     },
     "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/about.js": {
-      "query": "",
+      "query": "query cUsersLuisDesktopOtrosGatsbySrcPagesAboutJs1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/about.js"
     },
     "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/contact.js": {
@@ -576,6 +1363,10 @@
     "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/tutorial.js": {
       "query": "",
       "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/tutorial.js"
+    },
+    "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/my-files.js": {
+      "query": "query cUsersLuisDesktopOtrosGatsbySrcPagesMyFilesJs3953592347 {\n  allFile {\n    edges {\n      node {\n        relativePath\n        prettySize\n        extension\n        birthTime(fromNow: true)\n      }\n    }\n  }\n}\n",
+      "componentPath": "C:/Users/Luis/Desktop/Otros/Gatsby/src/pages/my-files.js"
     }
   },
   "staticQueryComponents": {}
