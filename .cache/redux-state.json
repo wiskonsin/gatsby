@@ -450,12 +450,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-22T14:43:32.961Z",
+      "buildTime": "2018-10-23T06:41:28.273Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f7e68cac57d56a8ab4195dd653a034cc",
+        "contentDigest": "c8ef07cfdc5e1082c944a6ee6225bee0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
