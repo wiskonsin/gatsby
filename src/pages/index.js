@@ -6,7 +6,7 @@ import styles from "../css/index-css-modules.module.css"
 
 export default () => (
     <Layout>
-    <h1>Crear un sitio web nunca fue tan fácil</h1>
+    <h2>Crear un sitio web nunca fue tan fácil</h2>
     <div>
       <p>
       <a href="https://www.gatsbyjs.org/">Gatsby</a> es un generador de webs <b>progresivo</b> que facilita el desarrollo de nuestra web.
