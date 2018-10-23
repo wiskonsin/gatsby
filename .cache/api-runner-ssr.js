@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
+    },{
       plugin: require('C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
     }]

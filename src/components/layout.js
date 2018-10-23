@@ -18,6 +18,8 @@ export default ({ children }) => (
         <ListLink to="/">Inicio</ListLink>
         <ListLink to="/about/">Sobre mi</ListLink>
         <ListLink to="/contact/">Contacto</ListLink>
+        <ListLink to="/articulos/">Artículos</ListLink>
+        <ListLink to="/my-files/">Ficheros</ListLink>
       </ul>
     </header>
     {children}

@@ -10,6 +10,11 @@
         "path": "/about/"
     },
     {
+        "componentChunkName": "component---src-pages-articulos-js",
+        "jsonName": "articulos-45e",
+        "path": "/articulos/"
+    },
+    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"

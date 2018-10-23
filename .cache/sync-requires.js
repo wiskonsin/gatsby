@@ -5,6 +5,7 @@ const preferDefault = m => m && m.default || m
 exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\.cache\\dev-404-page.js")),
   "component---src-pages-about-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\about.js")),
+  "component---src-pages-articulos-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\articulos.js")),
   "component---src-pages-contact-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\contact.js")),
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\index.js")),
   "component---src-pages-my-files-js": preferDefault(require("C:\\Users\\Luis\\Desktop\\Otros\\Gatsby\\src\\pages\\my-files.js")),

@@ -1,6 +1,16 @@
 {
     "develop": {
-        "plugins": [],
+        "plugins": [
+            {
+                "name": "babel-plugin-emotion",
+                "options": {
+                    "sourceMap": true,
+                    "autoLabel": true,
+                    "hoist": false,
+                    "plugins": []
+                }
+            }
+        ],
         "presets": [],
         "options": {
             "cacheDirectory": true,
@@ -8,7 +18,17 @@
         }
     },
     "develop-html": {
-        "plugins": [],
+        "plugins": [
+            {
+                "name": "babel-plugin-emotion",
+                "options": {
+                    "sourceMap": true,
+                    "autoLabel": true,
+                    "hoist": false,
+                    "plugins": []
+                }
+            }
+        ],
         "presets": [],
         "options": {
             "cacheDirectory": true,
@@ -16,7 +36,17 @@
         }
     },
     "build-html": {
-        "plugins": [],
+        "plugins": [
+            {
+                "name": "babel-plugin-emotion",
+                "options": {
+                    "sourceMap": true,
+                    "autoLabel": true,
+                    "hoist": false,
+                    "plugins": []
+                }
+            }
+        ],
         "presets": [],
         "options": {
             "cacheDirectory": true,
@@ -24,7 +54,17 @@
         }
     },
     "build-javascript": {
-        "plugins": [],
+        "plugins": [
+            {
+                "name": "babel-plugin-emotion",
+                "options": {
+                    "sourceMap": true,
+                    "autoLabel": true,
+                    "hoist": false,
+                    "plugins": []
+                }
+            }
+        ],
         "presets": [],
         "options": {
             "cacheDirectory": true,
