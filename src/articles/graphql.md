@@ -5,8 +5,6 @@ date: "2018-10-24"
 
 Datos Interesantes GraphQL
 
-Siguiendo el tutorial de HowToGraphQL
-
 Siguiendo el tutorial de GraphQL (https://graphql.org/learn/) y HowToGraphQL (https://www.howtographql.com/basics/0-introduction/) vamos a tener en cuenta una serie de conceptos.
 
 El primero, ¿qué función tiene una API? En pocas palabras, definir cómo un cliente obtiene información de un servidor.
