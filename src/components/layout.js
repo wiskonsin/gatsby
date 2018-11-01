@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import {Helmet} from "react-helmet";
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -10,6 +10,11 @@ const ListLink = props => (
 
 export default ({ children }) => (
   <div style={{ margin: `0 auto`, maxWidth: 800, padding: `1.25rem 1rem` }}>
+  <Helmet>
+                <meta charSet="utf-8" />
+                <title>Aprendiendo Gatsby</title>
+                <link rel="canonical" href="http://aprendiendogatsby.com" />
+            </Helmet>
   <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
         <h3 style={{ display: `inline` }}>aprendiendogatsby</h3>
