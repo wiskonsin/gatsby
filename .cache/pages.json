@@ -10,6 +10,41 @@
         "path": "/about/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "articles-doncic-b5e",
+        "path": "/articles/doncic/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "articles-git-54d",
+        "path": "/articles/git/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "articles-graphql-320",
+        "path": "/articles/graphql/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "articles-javascript-3f8",
+        "path": "/articles/javascript/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "articles-jenkins-578",
+        "path": "/articles/jenkins/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "articles-pandas-ff5",
+        "path": "/articles/pandas/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "articles-raquel-6ff",
+        "path": "/articles/raquel/"
+    },
+    {
         "componentChunkName": "component---src-pages-articulos-js",
         "jsonName": "articulos-45e",
         "path": "/articulos/"
@@ -23,6 +58,11 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-listado-js",
+        "jsonName": "listado-a20",
+        "path": "/listado/"
     },
     {
         "componentChunkName": "component---src-pages-my-files-js",

@@ -1,4 +1,4 @@
 module.exports = [{
-      plugin: require('C:/Users/Luis/Desktop/Otros/Gatsby/node_modules/gatsby-plugin-emotion/gatsby-browser'),
+      plugin: require('C:/Users/usuario/Documents/GIT/aprendiendogatsby/node_modules/gatsby-plugin-emotion/gatsby-browser'),
       options: {"plugins":[]},
     }]
