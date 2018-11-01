@@ -8,13 +8,14 @@ import { css } from "react-emotion"
 
 export default () => (
     <Layout>
+      <div>
     <h1
           className={css`
             display: inline-block;
             border-bottom: 1px solid;
           `}
         >Crear un sitio web nunca fue tan fácil</h1>
-    <div>
+    
       <p>
       <a href="https://www.gatsbyjs.org/">Gatsby</a> es un generador de webs <b>progresivo</b> que facilita el desarrollo de nuestra web.
       </p>

@@ -13,7 +13,7 @@ export default ({ children }) => (
   <Helmet>
                 <meta charSet="utf-8" />
                 <title>Aprendiendo Gatsby</title>
-                <link rel="canonical" href="http://aprendiendogatsby.com" />
+                <link rel="canonical" href="https://aprendiendogatsby.com" />
             </Helmet>
   <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
@@ -24,6 +24,7 @@ export default ({ children }) => (
         <ListLink to="/about/">Sobre mi</ListLink>
         <ListLink to="/contact/">Contacto</ListLink>
         <ListLink to="/articulos/">Artículos</ListLink>
+        <ListLink to="/tutorial/">Tutorial</ListLink>
         <ListLink to="/my-files/">Ficheros</ListLink>
       </ul>
     </header>
