@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { css } from "react-emotion"
 import Layout from "../components/layout"
+import { Link } from "gatsby"
 
 
 export default ({ data }) => {
@@ -31,6 +32,7 @@ export default ({ data }) => {
               </span>
             </h3>
             <p>{node.excerpt}</p>
+            <p><Link to={node.fields.slug}>Leer Más</Link></p>
           </div>
         ))
         }
@@ -39,9 +41,6 @@ export default ({ data }) => {
   )
 }
 
-
-
-
 export const query = graphql`
   query {
     allMarkdownRemark {
@@ -49,6 +48,9 @@ export const query = graphql`
       edges {
         node {
           id
+          fields{
+            slug
+          			}
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
