@@ -2,6 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import { css } from "react-emotion"
 import Layout from "../components/layout"
+import PostLink from "../components/post-link"
+
 
 export default ({ data }) => {
   console.log(data)
@@ -19,13 +21,11 @@ export default ({ data }) => {
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <h3
-             
-            >
+            <h3>
               {node.frontmatter.title}{" "}
               <span
                 className={css`
-                  color: #bbb;
+                  color: #e51937;
                 `}
               >
                 — {node.frontmatter.date}
@@ -33,11 +33,15 @@ export default ({ data }) => {
             </h3>
             <p>{node.excerpt}</p>
           </div>
-        ))}
-      </div>
+        ))
+        }
+        </div>
     </Layout>
   )
 }
+
+
+
 
 export const query = graphql`
   query {

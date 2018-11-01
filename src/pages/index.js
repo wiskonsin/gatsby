@@ -2,11 +2,18 @@ import React from "react"
 import Layout from "../components/layout.js"
 import { Link } from "gatsby"
 import styles from "../css/index-css-modules.module.css"
+import { css } from "react-emotion"
+
 
 
 export default () => (
     <Layout>
-    <h2>Crear un sitio web nunca fue tan fácil</h2>
+    <h1
+          className={css`
+            display: inline-block;
+            border-bottom: 1px solid;
+          `}
+        >Crear un sitio web nunca fue tan fácil</h1>
     <div>
       <p>
       <a href="https://www.gatsbyjs.org/">Gatsby</a> es un generador de webs <b>progresivo</b> que facilita el desarrollo de nuestra web.

@@ -1,13 +1,20 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import { css } from "react-emotion"
+
 
 export default ({ data }) => {
   console.log(data)
   return (
     <Layout>
       <div>
-        <h1>My Site's Files</h1>
+      <h1
+          className={css`
+            display: inline-block;
+            border-bottom: 1px solid;
+          `}
+        >My Site's Files</h1>
         <table>
           <thead>
             <tr>
