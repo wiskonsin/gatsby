@@ -28,6 +28,15 @@ export default ({ children }) => (
         <ListLink to="/articulos/">Artículos</ListLink>
         <ListLink to="/tutorial/">Tutorial</ListLink>
         <ListLink to="/my-files/">Ficheros</ListLink>
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Artículos
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Lugares</button>
+    <button class="dropdown-item" type="button">En Casa</button>
+  </div>
+</div>
       </ul>
     </header>
     {children}
