@@ -3,7 +3,6 @@ import Layout from "../components/layout.js"
 import { graphql } from "gatsby"
 import { css } from "react-emotion"
 
-
 export default ({ data }) => (
     <Layout>
   <div>
