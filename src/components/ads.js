@@ -1,10 +1,9 @@
 import React from "react"
 
-export default ({client, slot, format = 'auto'}) => (
+export default ({client, opcion = 'auto'}) => (
     <div>
     <ins className="adsbygoogle"
-    data-ad-client={client}
-    data-ad-slot={slot}
-    data-ad-format={format}></ins>
+    google_ad_client={client}
+    enable_page_level_ads={opcion}></ins>
     </div>
   )
