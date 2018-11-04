@@ -32,7 +32,7 @@ export default ({ children }) => (
     </header>
     {children}
     <footer>
-    <Ads client="ca-pub-0852379507006503" opcion="true"></Ads>
+    <Ads  client="ca-pub-0852379507006503" slot="5926986707" format="auto" responsive="true"></Ads>
     <ul style={{ listStyle: `none`, float: `center` }}>
         <ListLink to="/">2018</ListLink>
         <ListLink to="/">&copy; www.lagordopedia.com</ListLink>
