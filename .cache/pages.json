@@ -11,38 +11,38 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "articles-doncic-b5e",
-        "path": "/articles/doncic/"
+        "jsonName": "articles-home-doncic-57d",
+        "path": "/articles/home/doncic/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "articles-git-54d",
-        "path": "/articles/git/"
+        "jsonName": "articles-home-pandas-167",
+        "path": "/articles/home/pandas/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "articles-graphql-320",
-        "path": "/articles/graphql/"
+        "jsonName": "articles-home-raquel-cca",
+        "path": "/articles/home/raquel/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "articles-javascript-3f8",
-        "path": "/articles/javascript/"
+        "jsonName": "articles-places-git-1a1",
+        "path": "/articles/places/git/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "articles-jenkins-578",
-        "path": "/articles/jenkins/"
+        "jsonName": "articles-places-graphql-027",
+        "path": "/articles/places/graphql/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "articles-pandas-ff5",
-        "path": "/articles/pandas/"
+        "jsonName": "articles-places-javascript-c84",
+        "path": "/articles/places/javascript/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "articles-raquel-6ff",
-        "path": "/articles/raquel/"
+        "jsonName": "articles-places-jenkins-e8e",
+        "path": "/articles/places/jenkins/"
     },
     {
         "componentChunkName": "component---src-pages-articulos-js",
@@ -60,6 +60,11 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-home-js",
+        "jsonName": "home-75b",
+        "path": "/home/"
+    },
+    {
         "componentChunkName": "component---src-pages-listado-js",
         "jsonName": "listado-a20",
         "path": "/listado/"
@@ -68,6 +73,11 @@
         "componentChunkName": "component---src-pages-my-files-js",
         "jsonName": "my-files-317",
         "path": "/my-files/"
+    },
+    {
+        "componentChunkName": "component---src-pages-places-js",
+        "jsonName": "places-fa5",
+        "path": "/places/"
     },
     {
         "componentChunkName": "component---src-pages-tutorial-js",

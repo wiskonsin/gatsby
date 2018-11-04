@@ -26,15 +26,6 @@ export default ({data}) => (
     <div  className={styles.goto}>
     <p>Por ejemplo, por <Link to="/articulos/">nuestros artículos.</Link></p>
     </div>
-    <div class="dropdown">
-  <button class="btn" type="button" id={CssStyles.dropdownMenu2} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Artículos
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">Lugares</button>
-    <button class="dropdown-item" type="button">En Casa</button>
-  </ul>
-</div>
     </Layout>
 )
 

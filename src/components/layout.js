@@ -24,11 +24,17 @@ export default ({ children }) => (
       </Link>
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="/">Inicio</ListLink>
-        <ListLink to="/about/">Sobre mi</ListLink>
-        <ListLink to="/contact/">Contacto</ListLink>
-        <ListLink to="/articulos/">Artículos</ListLink>
-        <ListLink to="/tutorial/">Tutorial</ListLink>
-        <ListLink to="/my-files/">Ficheros</ListLink>
+        <ListLink to="/articulos/">
+  <button class="btn" type="button" id={CssStyles.dropdownMenu2} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Artículos
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button"><ListLink to="/places/">Lugares</ListLink></button>
+    <button class="dropdown-item" type="button"><ListLink to="/home/">En Casa</ListLink></button>
+  </ul>
+</ListLink>
+<ListLink to="/about/">Sobre mi</ListLink>
+        
       </ul>
     </header>
     {children}

@@ -15,6 +15,8 @@ export default ({ data }) => (
     <p>Si algo se me da bien en esta vida es comer, y por ello me gustaría compartir con todxs vosotrxs mis experiencias en <strong>{data.site.siteMetadata.title}</strong>.</p>
     <p>Espero que disfrutéis con esta web, al menos tanto como yo lo he hecho creándola.
       </p>
+      <p>Para cualquier duda o sugerencia no dudes en enviarme un email a <span><a href="mailto:luisriancho@gmail.com">luisriancho@gmail.com</a></span>
+    </p>
   </div>
   </Layout>
 )
