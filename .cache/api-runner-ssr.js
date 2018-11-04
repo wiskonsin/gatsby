@@ -13,6 +13,9 @@ var plugins = [{
     },{
       plugin: require('/Users/Luigi/gatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
+    },{
+      plugin: require('/Users/Luigi/gatsby/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"La GordoPedia","short_name":"LGP","start_url":"/","background_color":"#D74730","theme_color":"#99F2B3","display":"minimal-ui","icon":"src/images/logo.jpg"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

@@ -46,5 +46,17 @@ module.exports = {
           pathToConfigModule: `src/utils/typography.js`,
         },
       },
+      {
+        resolve: `gatsby-plugin-manifest`,
+        options: {
+          name: `La GordoPedia`,
+          short_name: `LGP`,
+          start_url: `/`,
+          background_color: `#D74730`,
+          theme_color: `#99F2B3`,
+          display: `minimal-ui`,
+          icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
+        },
+      },
     ],
   }
