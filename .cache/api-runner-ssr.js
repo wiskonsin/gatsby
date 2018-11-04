@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/Luigi/gatsby/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"90009280","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"optimizeId":"YOUR_GOOGLE_OPTIMIZE_TRACKING_ID","sampleRate":5,"siteSpeedSampleRate":10,"cookieDomain":"lagordopedia.com"},
+    },{
       plugin: require('/Users/Luigi/gatsby/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
       options: {"plugins":[]},
     },{

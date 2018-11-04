@@ -55,11 +55,6 @@
         "path": "/contact/"
     },
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "jsonName": "dev-404-page-5f9",
-        "path": "/dev-404-page/"
-    },
-    {
         "componentChunkName": "component---src-pages-listado-js",
         "jsonName": "listado-a20",
         "path": "/listado/"

@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import styles from "../css/index-css-modules.module.css"
 import { css } from "react-emotion"
 import { graphql } from "gatsby"
-import Ads from "../components/ads.js"
 
 
 
@@ -29,9 +28,6 @@ export default ({data}) => (
     <div  className={styles.goto}>
     <p>Por ejemplo, por <Link to="/articulos/">nuestros artículos.</Link></p>
     </div>
-    <Ads>
-    <GoogleAd client="ca-pub-0852379507006503" slot="2211062009" />
-    </Ads>
     </Layout>
 )
 

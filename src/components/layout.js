@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import {Helmet} from "react-helmet";
-import Ads from "ads.js"
+import Ads from "../components/ads.js"
 
 
 const ListLink = props => (
@@ -32,9 +32,7 @@ export default ({ children }) => (
     </header>
     {children}
     <footer>
-    <Ads>
-    <GoogleAd client="ca-pub-0852379507006503" slot="2211062009" />
-    </Ads>
+    <Ads client="ca-pub-0852379507006503" slot="2211062009"></Ads>
     <ul style={{ listStyle: `none`, float: `center` }}>
         <ListLink to="/">2018</ListLink>
         <ListLink to="/">&copy; www.lagordopedia.com</ListLink>
