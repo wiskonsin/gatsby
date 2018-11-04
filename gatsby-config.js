@@ -34,6 +34,7 @@ module.exports = {
       `gatsby-transformer-remark`,
       `gatsby-plugin-emotion`,
       `gatsby-plugin-react-helmet`,
+      `gatsby-plugin-twitter`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -46,6 +47,7 @@ module.exports = {
           pathToConfigModule: `src/utils/typography.js`,
         },
       },
+      
       {
         resolve: `gatsby-plugin-manifest`,
         options: {
@@ -53,7 +55,7 @@ module.exports = {
           short_name: `LGP`,
           start_url: `/`,
           background_color: `#D74730`,
-          theme_color: `#99F2B3`,
+          theme_color: `#CD5C5C`,
           display: `minimal-ui`,
           icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
         },

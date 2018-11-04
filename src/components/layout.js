@@ -45,6 +45,7 @@ export default ({ children }) => (
         <ListLink to="/">&copy; www.lagordopedia.com</ListLink>
         <ListLink to="/">Luis Riancho</ListLink>
       </ul>
+      <a href="https://twitter.com/luigi_soplete?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="es" data-show-count="false">Follow @luigi_soplete</a>
     </footer>
   </div>
 )
