@@ -12,12 +12,12 @@ export default ({ children }) => (
   <div style={{ margin: `0 auto`, maxWidth: 800, padding: `1.25rem 1rem` }}>
   <Helmet>
                 <meta charSet="utf-8" />
-                <title>Aprendiendo Gatsby</title>
-                <link rel="canonical" href="https://aprendiendogatsby.com" />
+                <title>La GordoPedia</title>
+                <link rel="canonical" href="https://lagordopedia.com" />
             </Helmet>
   <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <h3 style={{ display: `inline` }}>aprendiendogatsby</h3>
+        <h3 style={{ display: `inline` }}>LaGordoPedia</h3>
       </Link>
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="/">Inicio</ListLink>
@@ -32,7 +32,7 @@ export default ({ children }) => (
     <footer>
     <ul style={{ listStyle: `none`, float: `center` }}>
         <ListLink to="/">2018</ListLink>
-        <ListLink to="/">&copy; www.aprendiendogatsby.com</ListLink>
+        <ListLink to="/">&copy; www.lagordopedia.com</ListLink>
         <ListLink to="/">Luis Riancho</ListLink>
       </ul>
     </footer>

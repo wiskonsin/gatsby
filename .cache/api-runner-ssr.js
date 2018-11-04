@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('C:/Users/usuario/Documents/GIT/aprendiendogatsby/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
+      plugin: require('/Users/Luigi/gatsby/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/usuario/Documents/GIT/aprendiendogatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/Luigi/gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/usuario/Documents/GIT/aprendiendogatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/Luigi/gatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
-      plugin: require('C:/Users/usuario/Documents/GIT/aprendiendogatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/Luigi/gatsby/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

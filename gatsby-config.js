@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `aprendiendogatsby`,
+    title: `La GordoPedia`,
+    description: `Lo más grande es comer`,
   },
     plugins: [
       {

@@ -3,10 +3,10 @@ import Layout from "../components/layout.js"
 import { Link } from "gatsby"
 import styles from "../css/index-css-modules.module.css"
 import { css } from "react-emotion"
+import { graphql } from "gatsby"
 
 
-
-export default () => (
+export default ({data}) => (
     <Layout>
       <div>
     <h1
@@ -14,21 +14,28 @@ export default () => (
             display: inline-block;
             border-bottom: 1px solid;
           `}
-        >Crear un sitio web nunca fue tan fácil</h1>
+        >Lo más grande es comer</h1>
     
       <p>
-      <a href="https://www.gatsbyjs.org/">Gatsby</a> es un generador de webs <b>progresivo</b> que facilita el desarrollo de nuestra web.
+      Porque nos gusta comer, <b>comer mucho y bien</b>. ¿Y barato? ¡Por qué no!
       </p>
       <p>
-      En pocos minutos te sorprenderá ya que se obtienen <b>resultados</b> increíbles.
-      </p>
-      <p>
-      Podemos usar <b>Hemingway</b> para mejorar legibilidad.
+      <p>En <strong>{data.site.siteMetadata.title}</strong> sólo queremos contarte nuestras buenas experiencias gastronómicas, no importa dónde, siempre y cuando acaben con una <strong>buena panzada</strong> y una sonrisa en la boca.</p>
       </p>
       </div>
-    <p>¿Quieres comenzar nuestro tutorial en castellano?</p>
+    <p>¿Por dónde empezar?</p>
     <div  className={styles.goto}>
-    <Link to="/tutorial/">Haz click aquí</Link>
+    <p>Por ejemplo, por <Link to="/articulos/">nuestros artículos</Link></p>
     </div>
     </Layout>
 )
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
