@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import styles from "../css/index-css-modules.module.css"
 import { css } from "react-emotion"
 import { graphql } from "gatsby"
-import CssStyles from "../css/index-css-modules.module.css"
 
 
 export default ({data}) => (
