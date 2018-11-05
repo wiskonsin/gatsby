@@ -20,7 +20,7 @@ button{
     align-content: center;
 }
 
-adsbygoogle{
+#adsbygoogle{
   display:block;
   height:100px;
 }
