@@ -1,6 +1,6 @@
 ---
 title: "ReactJS II"
-date: "2018-11-09"
+date: "2018-11-11"
 ---
 
 Acceder a datos anidados
@@ -58,3 +58,53 @@ Title.propTypes = {
 }
 
 export default Validation
+
+----------------
+
+Systema de eventos en React. Podemos escuchar lo que se realiza en el navegador y en base a ello realizar una serie de acciones.
+
+El método update es un método creado por nosotros
+
+import React from 'react'
+
+class Events extends React.Component{
+    constructor(){
+        super();
+        this.state={currentEvent:'---'}
+        this.update = this.update.bind(this);
+    }
+    update(e){
+        this.setState({currentEvent: e.type})
+    }
+    render(){
+        return(
+        <div>
+
+        <textarea 
+        cols="30" 
+        rows="10"
+        onKeyPress = {this.update}
+        onBlur = {this.update}
+        onTouchStart = {this.update}
+        onTouchEnd = {this.update}
+        onFocus = {this.update}
+        onCut = {this.update}
+        onCopy = {this.update}
+        onPaste = {this.update}
+        onDoubleClick = {this.update}
+        onTouchMove = {this.update}
+        onTouchEnd = {this.update}
+        />
+        <h1>{this.state.currentEvent}</h1>
+
+        </div>
+        )
+    }
+}
+
+export default Events;
+
+---------
+
+Referencias a componentes (útil si queremos actualizar diferentes componentes del mismo tipo)
+
