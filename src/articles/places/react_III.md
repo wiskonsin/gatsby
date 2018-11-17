@@ -68,3 +68,51 @@ class Wrapper extends React.Component{
 
 export default Wrapper
 ```
+---
+
+Controlar las actualizaciones del componente dependiendo de las propiedades recibidas
+
+````
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+class Updates extends React.Component{
+    
+    constructor(){
+        super();
+        this.state = {increasing: false}
+    }
+    
+    update(){
+        ReactDOM.render(
+            <Updates val={this.props.val+1} />,
+            document.getElementById('root')
+        )
+    }
+    //Con esta función podemos comprobar el valor que va a recibir el componente en sus propiedades
+    componentWillReceiveProps(nextProps){
+        this.setState({increasing: nextProps.val > this.props.val})
+    }
+    //Esta función hace que el componente sólo se actualice cuando queramos.
+    //En este caso comprobamos si el valor es múltiplo de 5
+    shouldComponentUpdate(nextProps,nextState){
+        return nextProps.val % 5 === 0
+    }
+    //Esta función se activa cuando el componente se ha actualizado y en este caso utilizamos los valores previos de las propiedades
+    componentDidUpdate(prevProps,prevState){
+        console.log(`prevProps: ${prevProps.val}`)
+    }
+    render(){
+        console.log(this.state.increasing)
+
+        return(
+            <button onClick={this.update.bind(this)}>
+            {this.props.val}
+            </button>
+        )
+    }
+}
+
+Updates.defaultProps = {val:0}
+export default Updates
