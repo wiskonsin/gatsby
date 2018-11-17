@@ -5,6 +5,7 @@ date: "2018-11-17"
 
 Cuando nuestro componente se incluye en el DOM -> Mounted
 Cuando sale del DOM -> UnMounted
+```
 
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -66,3 +67,4 @@ class Wrapper extends React.Component{
 }
 
 export default Wrapper
+```
