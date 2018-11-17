@@ -5,6 +5,7 @@ date: "2018-11-09"
 
 enlaces interesantes: https://gallardoramos.com/porque-aprender-reactjs-y-por-donde-empezar/
 https://egghead.io/lessons/react-use-create-react-app-to-setup-a-simple-react-app
+```
 
 npm -i create-react-app -g
 create-react-app react-app
@@ -12,10 +13,12 @@ create-react-app react-app
 cd react-app
 (abrimos editor)
 npm start
+```
 
 En el editor. Borramos todo de src salvo App.js e index.js
 
 Y en public dejamos sólo index.html y dejamos el fichero así:
+```
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,10 +33,12 @@ Y en public dejamos sólo index.html y dejamos el fichero así:
 
   </body>
 </html>
+```
 
 En App.js
 
 diferentes formas de crear un componente React, (están comentadas 2/3)
+```
 
 import React from 'react';
 
@@ -53,12 +58,14 @@ import React from 'react';
 const App = () => <h1>Hola chavales</h1>
 
 export default App
+```
 
 ----
 
 Para poder exportar varios elementos, hay que meterlos en un wrap correctamente.
 
 Ejemplo, esto no funciona:
+```
 
 class App extends Component {
   render() {
@@ -67,8 +74,10 @@ class App extends Component {
     );
   }
 }
+```
 
 Pero esto sí:
+```
 
 class App extends Component {
   render() {
@@ -79,26 +88,34 @@ class App extends Component {
     );
   }
 }
+```
 
 ----
 
 Podemos enviar información a través de las propiedades de los componentes. De esta forma, desde index.js, si realizamos lo siguiente:
+```
 
 ReactDOM.render(
 <App txt="este texto se corresponde a la propiedad txt"/>, document.getElementById('root')
                 );
-                
+ ```
+               
 A continuación, en App.js, dentro de la clase:
+```
 
 <p>{this.props.txt}</p>
+```
 
 Incluso, si antes del return, hacemos un let txt = this.props.txt y a continuación sustituimos el contenido del paragraph por {txt}, el resultado es el mismo
 
 ----
+```
 
 //definimos un objeto con las propiedades. Las propiedades son colecciones de valores que pasamos a los componentes, cuyo valor es estático
+```
 
 (importamos primero prop-types)
+```
 
 import PropTypes from 'prop-types';
 
@@ -107,15 +124,18 @@ App.propTypes = {
   cat: PropTypes.number
 }
 
+
 // definimos el valor por defecto de txt
 
 App.defaultProps = {
   txt: "soy luis"
 }
+```
 
 ------------
 
 // State -> para poder definir valores de forma dinámica dentro de un componente
+```
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
@@ -163,12 +183,14 @@ App.defaultProps = {
 }
 
 export default App;
+```
 
 -----
 
 Una cualidad importante de react es que permite que un componente renderice otro componente
 
 En el siguiente ejemplo se ve cómo se puede crear un componente widget, añadir todos los que se quiera y ver cómo renderiza el resultado debidamente
+```
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
@@ -223,3 +245,4 @@ App.defaultProps = {
 }
 
 export default App;
+```
