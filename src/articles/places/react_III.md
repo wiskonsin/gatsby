@@ -116,3 +116,42 @@ class Updates extends React.Component{
 
 Updates.defaultProps = {val:0}
 export default Updates
+--------
+
+Extrayendo info de una API
+
+
+´´´´´
+
+import React from 'react'
+
+class ArrayAPI extends React.Component{
+    constructor(){
+        super();
+        //creamos array vacío
+        this.state = {items: []}
+    }
+    // El componente se montará con
+    componentWillMount(){
+        //descargo info de la api de Star Wars (people)
+        fetch('https://swapi.co/api/people/?format=json')
+        .then(response => response.json())
+        .then( ({results: items}) => this.setState({items}))
+    }
+    render(){
+        // Almacenamos los datos en el array
+        let items = this.state.items
+        
+        return(
+            <div>
+                {items.map(item=><h4 key="{item.name}">{item.name}</h4>)}
+            </div>
+        )
+    }
+
+}
+
+export default ArrayAPI
+
+
+´´´´´
