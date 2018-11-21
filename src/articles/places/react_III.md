@@ -72,7 +72,7 @@ export default Wrapper
 
 Controlar las actualizaciones del componente dependiendo de las propiedades recibidas
 
-````
+```
 
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -117,7 +117,7 @@ class Updates extends React.Component{
 Updates.defaultProps = {val:0}
 export default Updates
 --------
-
+```
 Extrayendo info de una API
 
 
