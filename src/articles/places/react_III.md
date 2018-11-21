@@ -121,7 +121,7 @@ export default Updates
 Extrayendo info de una API
 
 
-´´´´´
+```
 
 import React from 'react'
 
@@ -154,4 +154,4 @@ class ArrayAPI extends React.Component{
 export default ArrayAPI
 
 
-´´´´´
+```
